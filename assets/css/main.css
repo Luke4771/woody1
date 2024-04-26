@@ -2680,6 +2680,8 @@ input, select, textarea {
 			background-color: #ffffff;
 			box-shadow: none;
 			color: #242943;
+			margin-left: 1.3em /* Contact Button */
+
 		}
 
 			input[type="submit"].primary:hover, input[type="submit"].primary:active,
@@ -2904,6 +2906,8 @@ input, select, textarea {
 					height: 20em;
 					width: 100% !important;
 				}
+
+		
 
 		}
 
@@ -3382,7 +3386,7 @@ input, select, textarea {
 					width: 4em;
 					right: 0;
 				}
-
+		
 		}
 
 /* Banner */
