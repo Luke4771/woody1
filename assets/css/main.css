@@ -2428,6 +2428,12 @@ input, select, textarea {
 				padding-right: 0;
 			}
 
+			ul.actions {
+
+				margin-left: -1em; /* This is the Get Started Button */
+				
+			}
+
 		}
 
 /* Table */
@@ -3055,6 +3061,12 @@ input, select, textarea {
 
 			.spotlights > section > .content {
 				padding: 3em 1.5em 1em 1.5em ;
+			}
+
+			ul.actions {
+
+				margin-left: -1em; /* This is the Get Started Button */
+				
 			}
 
 		}
