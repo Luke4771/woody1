@@ -2278,7 +2278,7 @@ input, select, textarea {
 		display: flex;
 		cursor: default;
 		list-style: none;
-		margin-left: -2em; /* This is the Get Started Button */
+		margin-left: -1em; /* This is the Get Started Button */
 		padding-left: 0;
 	}
 
