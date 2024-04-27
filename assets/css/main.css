@@ -2211,6 +2211,8 @@ input, select, textarea {
 			display: block;
 			margin: 2.5em 0;
 			width: 100%;
+
+		
 		}
 
 			.image.main img {
@@ -3997,3 +3999,13 @@ input, select, textarea {
 	animation-fill-mode: forwards;        /* Ensure it stays in place after animation */
   }
   
+
+/* Adjust About-image */
+.about-image {
+	width: 50px;       /* Adjust width to reduce the size */
+	height: auto;     /* Maintain aspect ratio */
+	display: block;   /* Ensure it's a block-level element */
+	margin: 1rem auto;/* Center the image with spacing around it */
+	max-width: 250px;
+	
+  }
