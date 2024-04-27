@@ -197,7 +197,8 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 1.55em;
+		margin-left: 0.0em;
 	}
 
 	h3 {
@@ -1785,6 +1786,8 @@ input, select, textarea {
 			width: calc(100% + 0.5em);
 		}
 
+			/*  This is the devider after the h1
+			
 			header.major > :first-child:after {
 				content: '';
 				background-color: #ffffff;
@@ -1793,6 +1796,7 @@ input, select, textarea {
 				margin: 0.325em 0 0.5em 0;
 				width: 100%;
 			}
+			*/
 
 		header.major > p {
 			font-size: 0.7em;
@@ -3969,3 +3973,27 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+
+
+/* Luke Custom 1 */
+
+/* Keyframes to slide in from the left */
+
+@keyframes slideFromLeft {
+	from {
+	  transform: translateX(-100%); /* Start completely off-screen to the left */
+	  opacity: 0;                   /* Start invisible */
+	}
+	to {
+	  transform: translateX(0);     /* Slide to its final position */
+	  opacity: 1;                   /* Fade in */
+	}
+  }
+  
+  /* Applying the animation to the element */
+  .slide-from-left {
+	animation: slideFromLeft 1s ease-out; /* Animation duration and easing */
+	animation-fill-mode: forwards;        /* Ensure it stays in place after animation */
+  }
+  
